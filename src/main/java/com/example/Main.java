@@ -7,5 +7,8 @@ public class Main {
                 + animal.getAge() + " years old and says: "
                 + animal.makeSound());
         animal.eat("grass");
+
+        Bird bird = new Bird("Tweety", "yellow");
+        bird.fly();
     }
 }

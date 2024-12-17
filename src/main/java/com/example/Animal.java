@@ -19,6 +19,16 @@ package com.example;
 // 4) Выполните Push на GitHub.
 // Результат: Изменения опубликованы. Посмотрите историю коммитов на GitHub.
 
+// Упражнение 3: Работа с ветками
+//Цель: Создать ветку для новой функциональности, внести изменения в этой ветке и
+// слить её обратно.
+// 1) Создайте новую ветку feature/add-another-animal
+// (VCS > Git > Branches > New Branch…).
+// 2) В этой ветке создайте новый класс без наследования, например Bird.java:
+// 3) В классе Main создайте объект Bird и вызовите fly():
+// Bird bird = new Bird("Tweety", "yellow"); bird.fly();
+// 4) Закоммитьте изменения с сообщением: “Add Bird class and test it in Main”
+// 5) Выполните Push ветки на GitHub (при первом пуше выберите origin/feature/add-another-animal).
 public class Animal {
     private String name;
     private int age;
